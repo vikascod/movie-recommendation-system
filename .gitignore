@@ -142,7 +142,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-movies.csv
+# movies.csv
 
 # Pyre type checker
 .pyre/
