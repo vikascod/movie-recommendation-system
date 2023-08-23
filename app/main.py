@@ -69,5 +69,3 @@ async def recommend_movie(name: MovieName):
 
     return {"movie_name": movie_name, "recommended_movies": recommended_movies}
 
-if __name__=="__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
